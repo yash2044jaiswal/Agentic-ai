@@ -1,0 +1,91 @@
+# Dependencies
+
+node_modules/
+
+# Logs
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+
+.env
+.env.local
+.env.production
+.env.development
+
+# Build Folders
+
+dist/
+build/
+
+# Vite
+
+.vite/
+
+# Coverage
+
+coverage/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# IDE Files
+
+.vscode/
+.idea/
+
+# Temporary Files
+
+*.tmp
+*.temp
+
+# Cache
+
+.cache/
+
+# MongoDB
+
+*.mongodb
+
+# Render
+
+.render
+
+# Vercel
+
+.vercel
+
+# Package Lock Files (optional)
+
+# package-lock.json
+
+# Uploads
+
+uploads/
+public/uploads/
+
+# Generated PDFs
+
+generated-pdfs/
+
+# Test Reports
+
+reports/
+
+# Secrets
+
+secrets/
+credentials/
+
+# Runtime Files
+
+pids
+*.pid
+*.seed
+*.pid.lock
