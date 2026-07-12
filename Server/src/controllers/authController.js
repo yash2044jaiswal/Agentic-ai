@@ -9,6 +9,7 @@ import generateToken from '../utils/generateToken.js';
  */
 class AuthController {
   
+  
   // POST /api/auth/register
   registerUser = async (req, res, next) => {
     try {
