@@ -8,6 +8,7 @@ import pdfGenerator from '../services/PdfGeneratorService.js';
  */
 class TripController {
 
+  
   // POST /api/trips
   createTrip = async (req, res, next) => {
     try {
