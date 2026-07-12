@@ -7,6 +7,7 @@ export const chatService = {
       return response.data;
     } catch (error) {
       console.error('Chat API Error:', error);
+      
       throw error;
     }
   },
