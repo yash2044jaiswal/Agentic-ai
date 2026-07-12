@@ -7,6 +7,7 @@ import { ChatProvider } from './context/ChatContext'
 import { TripProvider } from './context/TripContext'
 
 function App() {
+  
   return (
     <BrowserRouter>
       <AuthProvider>
