@@ -4,6 +4,7 @@ import { FiActivity, FiCheckCircle, FiLoader } from 'react-icons/fi'
 
 const AgentStatus = ({ isActive, steps }) => {
   const agents = [
+    
     { name: 'Requirement Analyzer', status: 'pending', step: 'Understanding request...' },
     { name: 'Gemini Retriever', status: 'pending', step: 'Searching travel knowledge...' },
     { name: 'Budget Planner', status: 'pending', step: 'Calculating cost matrix...' },
