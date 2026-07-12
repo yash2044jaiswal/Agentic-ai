@@ -7,6 +7,7 @@ import AnimatedGlobe from '../components/common/AnimatedGlobe'
 
 const Home = () => {
   const { user } = useAuth()
+  
 
   const features = [
     { icon: FiZap, title: 'AI-Powered Planning', description: 'Advanced AI understands your preferences and creates personalized itineraries' },
