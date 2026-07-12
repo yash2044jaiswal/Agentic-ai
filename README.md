@@ -6,6 +6,7 @@ TravelMind AI Agent is an AI-powered travel planning platform that helps users g
 
 Instead of functioning as a traditional chatbot, TravelMind AI Agent acts as a team of AI travel experts that:
 
+
 * Understand travel requirements
 * Analyze budgets
 * Recommend transportation
