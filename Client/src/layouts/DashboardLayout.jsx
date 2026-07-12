@@ -53,7 +53,7 @@ const DashboardLayout = () => {
 
   return (
     <div className="min-h-screen bg-dark-900">
-      {/* Mobile Menu Button */}
+     
       <button
         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
         className="fixed top-4 left-4 z-50 md:hidden p-2 glass rounded-lg"
