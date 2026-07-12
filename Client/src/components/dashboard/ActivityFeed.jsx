@@ -9,6 +9,7 @@ const ActivityFeed = () => {
     { id: 3, type: 'profile', message: 'Profile updated', time: '1 day ago', icon: FiUser, color: 'from-green-500 to-emerald-500' },
   ]
 
+  
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
