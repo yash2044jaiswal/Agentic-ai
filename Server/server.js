@@ -6,6 +6,7 @@ const PORT = process.env.PORT || 5000;
 // Connect to MongoDB Database
 connectDB()
   .then(() => {
+    
     app.listen(PORT, () => {
       console.log(`========================================================`);
       console.log(`  TravelMind AI Backend Agent Server running on port ${PORT}`);
