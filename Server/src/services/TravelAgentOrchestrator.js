@@ -12,6 +12,7 @@ class TravelAgentOrchestrator {
     const reasoningSteps = [];
     const currentDate = new Date().toLocaleDateString('en-GB');
 
+    
     // --- AGENT 1: LANGUAGE & REQUIREMENT ANALYZER (POWERED BY GEMINI) ---
     const userLanguage = this._detectLanguage(queryText);
     reasoningSteps.push(`Agent 1 [Analyzer]: Identified language: ${userLanguage}. Extracting global entities.`);
