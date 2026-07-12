@@ -2,7 +2,8 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 
 /**
  * Configuration module for Google Gemini AI.
- * Initializes the generative AI client and handles verification fallback.
+ * Initializes the gener
+ ative AI client and handles verification fallback.
  */
 class GeminiConfig {
   constructor() {
