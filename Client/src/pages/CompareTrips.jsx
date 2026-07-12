@@ -8,6 +8,7 @@ const CompareTrips = () => {
   const [selectedTrips, setSelectedTrips] = useState([])
 
   useEffect(() => {
+    
     fetchTrips()
   }, [])
 
