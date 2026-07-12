@@ -6,6 +6,7 @@ import { FiUser, FiMail, FiLock, FiArrowRight, FiEye, FiEyeOff } from 'react-ico
 
 const Register = () => {
   const [formData, setFormData] = useState({
+    
     name: '',
     email: '',
     password: '',
