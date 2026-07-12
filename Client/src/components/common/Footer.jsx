@@ -4,6 +4,7 @@ import { FiGithub, FiTwitter, FiLinkedin, FiMail, FiMap } from 'react-icons/fi'
 
 const Footer = () => {
   return (
+    
     <footer className="bg-dark-800/50 border-t border-white/10 py-12">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
