@@ -9,6 +9,7 @@ class GeminiService {
   async retrieveDestinationContext(source, destination, travelers = 1, days = 5, userLanguage = "English") {
     const currentDate = new Date().toLocaleDateString('en-GB'); // Current date context (e.g. 12/06/2026)
     const currentMonth = new Date().toLocaleString('default', { month: 'long' });
+
     
     console.log(`[Gemini Global Engine] Planning: ${source} -> ${destination} | Date Context: ${currentDate} | Lang: ${userLanguage}`);
 
