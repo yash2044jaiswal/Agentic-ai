@@ -9,6 +9,7 @@ export const tripService = {
   async getAllTrips() {
     const response = await api.get('/trips')
     return response.data
+    
   },
 
   async getTripById(id) {
