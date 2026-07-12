@@ -5,6 +5,7 @@ class ItineraryGeneratorService {
   /**
    * Outputs customizable day-wise planner arrays.
    */
+  
   buildItinerary(days, destination, attractions, transportCost) {
     console.log(`[Itinerary Agent Active] Formatting ${days}-day plan for ${destination}`);
 
