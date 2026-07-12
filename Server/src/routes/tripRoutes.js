@@ -8,6 +8,7 @@ router.route('/')
   .post(protect, tripController.createTrip)
   .get(protect, tripController.getUserTrips);
 
+
 router.route('/:id')
   .get(protect, tripController.getTripById)
   .delete(protect, tripController.deleteTrip);
