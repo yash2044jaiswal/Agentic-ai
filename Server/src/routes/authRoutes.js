@@ -5,6 +5,7 @@ import { protect } from '../middleware/authMiddleware.js';
 
 const router = express.Router();
 
+
 // Input Validation chains
 const registerValidation = [
   body('name').notEmpty().withMessage('Name is required').trim(),
