@@ -8,6 +8,7 @@ export const getBudgetLevel = (totalCost) => {
   if (totalCost < 10000) return 'Budget'
   if (totalCost < 30000) return 'Moderate'
   if (totalCost < 60000) return 'Premium'
+  
   return 'Luxury'
 }
 
