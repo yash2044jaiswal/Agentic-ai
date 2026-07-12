@@ -4,6 +4,7 @@ import ApiError from '../utils/ApiError.js';
 
 /**
  * Express middleware to guard routes and enforce valid JWT authentications.
+ 
  */
 export const protect = async (req, res, next) => {
   let token;
