@@ -10,6 +10,7 @@ import Dashboard from '../pages/Dashboard'
 import Planner from '../pages/Planner'
 import TripDetails from '../pages/TripDetailes'
 import CompareTrips from '../pages/CompareTrips'
+
 import Profile from '../pages/Profile'
 import SavedTrips from '../pages/SavedTrips'
 import NotFound from '../pages/NotFound'
