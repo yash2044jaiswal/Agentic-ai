@@ -2,6 +2,7 @@
 
 A world-class, hackathon-winning frontend for the TravelMind AI Agent platform.
 
+
 ## 🚀 Features
 
 - **AI-Powered Travel Planning**: Intelligent multi-agent system for personalized itineraries
