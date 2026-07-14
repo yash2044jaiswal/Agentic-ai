@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/10 mt-8 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; 2026 TravelMind AI. All rights reserved. Built for Microsoft AI Hackathon.</p>
+          <p>&copy; 2026 TravelMind AI. All rights reserved. Built for Gemini AI Hackathon.</p>
         </div>
       </div>
     </footer>
