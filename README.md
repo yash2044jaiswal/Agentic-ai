@@ -324,6 +324,9 @@ GET /api/trips/:id/pdf
 ## 👨‍💻 Developer
 
 Yash Jaiswal
+prototype 
+Frontend Link
+https://agentic-ai-lovat-tau.vercel.app/
 
 Built for the Microsoft Agents League Hackathon 2026.
 
