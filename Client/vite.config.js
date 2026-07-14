@@ -18,14 +18,6 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: false,
     minify: 'terser',
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom'],
-          ui: ['framer-motion', 'react-hot-toast', 'react-icons'],
-          charts: ['recharts', 'react-google-charts']
-        }
-      }
-    }
+    
   }
 })
